@@ -48,7 +48,7 @@ function App() {
   }
 
   const cardEls = [...idxs].map(idx => (
-    <p>
+    <p key={idx}>
       {cards[idx]}
     </p>
   ))
